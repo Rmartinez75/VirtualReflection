@@ -1,0 +1,432 @@
+
+[
+      {
+         "id":"air-canvas",
+         "imageCount":4,
+         "href1":"/productPage/id",
+         "src1":"/assets/images/prodImages/airCanvas/homePage/canvas1.webp",
+         "alt1":"Air Canvas Vest",
+         "href2":"/",
+         "src2":"/assets/images/prodImages/airCanvas/homePage/canvas2.webp",
+         "alt2":"Air Canvas Vest",
+         "href3":"/",
+         "src3":"/assets/images/prodImages/airCanvas/homePage/canvasMob.webp",
+         "alt3":"Air Canvas Vest",
+         "schematicsrc":"/assets/images/schematics/vestSchema.svg",
+         "schematicalt":"Vest Schematics",
+         "schematicsrc2":"/assets/images/schematics/vestSchema.svg",
+         "schematicalt2":"Vest Schematics",
+         "schemaWidth":600,
+         "width":600,
+         "height":0,
+         "width2":600,
+         "height2":0,
+         "slides":[
+            "/assets/images/prodImages/airCanvas/homePage/carousel/carCanvas1.webp",
+            "/assets/images/prodImages/airCanvas/homePage/carousel/carCanvas2.webp",
+            "/assets/images/prodImages/airCanvas/homePage/carousel/carCanvas3.webp"
+         ],
+         "productName":"VR: AIR CANVAS",
+         "productDesc":"Imagine, a returning astronaut coming home to a new world. The VR Air Canvas encompasses an astronaut styled off white canvas puffer with direct openings for sensor placement. Equipped with an environmental carbon sensor, VR Air Canvas offers a glimpse into the world around us. Accurate readings of indoor and outdoor environments provide invaluable insights, allowing you to navigate and connect with your surroundings like never before. Designed to adapt to individual preferences, it can be worn with or without compatible sensors, showcasing the exploration of heavy-duty cotton and its harmonious aging abilities alongside its integrated parts.",
+         "productDesc2":"Imagine, a returning astronaut coming home to a new world. The VR Air Canvas encompasses an astronaut styled off white canvas puffer with direct openings for sensor placement. Equipped with an environmental carbon sensor, VR Air Canvas offers a glimpse into.....",
+         "largeImageSlides":[
+          "/assets/images/prodImages/airCanvas/productPage/carousel1/1.webp",
+          "/assets/images/prodImages/airCanvas/productPage/carousel1/2.webp",
+          "/assets/images/prodImages/airCanvas/productPage/carousel1/3.webp",
+          "/assets/images/prodImages/airCanvas/productPage/carousel1/4.webp"
+         ],
+         "largeImageSlides2":[
+          "/assets/images/prodImages/airCanvas/productPage/carousel2/car2Canvas1.webp",
+          "/assets/images/prodImages/airCanvas/productPage/carousel2/car2Canvas2.webp",
+          "/assets/images/prodImages/airCanvas/productPage/carousel2/car2Canvas3.webp",
+          "/assets/images/prodImages/airCanvas/productPage/carousel2/car2Canvas4.webp"
+         ],
+         "smallTopSlides":[
+          "/assets/images/prodImages/airCanvas/productPage/carousel3/car3Canvas1.webp",
+          "/assets/images/prodImages/airCanvas/productPage/carousel3/car3Canvas2.webp"
+         ],
+         "smallBottomSlides":[
+          "/assets/images/prodImages/airCanvas/productPage/carousel4/car4Canvas1.webp",
+          "/assets/images/prodImages/airCanvas/productPage/carousel4/car4Canvas2.webp"
+         ],
+         "schematics": "/assets/images/schematics/vestSchema.svg" 
+      },
+      {
+         "id":"air-explorer",
+         "imageCount":3,
+         "href1":"/",
+         "src1":"/assets/images/prodImages/airExplorer/homePage/explorer1.webp",
+         "alt1":"Air Explorer Vest",
+         "href2":"/",
+         "src2":"/assets/images/prodImages/airExplorer/homePage/explorer2.webp",
+         "alt2":"Air explorer Vest",
+         "href3":"/",
+         "src3":"/assets/images/prodImages/airExplorer/homePage/explorerMob.webp",
+         "alt3":"Air Explorer Vest",
+         "schematicsrc":"/assets/images/schematics/vestSchema.svg",
+         "schematicalt":"Vest Schematics",
+         "schematicsrc2":"/assets/images/schematics/vestSchema.svg",
+         "schematicalt2":"Vest Schematics",
+         "schemaWidth":600,
+         "width":900,
+         "height":0,
+         "width2":600,
+         "height2":0,
+         "slides":[
+            "/assets/images/prodImages/airExplorer/homePage/carousel/carExplorer1.webp",
+            "/assets/images/prodImages/airExplorer/homePage/explorer1.webp",
+            "/assets/images/prodImages/airExplorer/homePage/explorer2.webp"
+         ],
+         "productName":"VR: AIR EXPLORER",
+         "productDesc":"Explore where no one else has, like no one else has with the VR Air Explorer. Users are able to enjoy comfort alongside ample storage space. The Explorer features a unique blend of nylon and suede. This device was designed for specialty sensors that may be bigger in size or require a bigger storage as well as external access making installation a lot easier. Install and begin your journey.",
+         "productDesc2":"Explore where no one else has, like no one else has with the VR Air Explorer. Users are able to enjoy comfort alongside ample storage space. The Explorer features a unique blend of nylon and suede. This device was designed for specialty  .....",
+         "largeImageSlides":[
+          "/assets/images/prodImages/airExplorer/productPage/carousel1/car1Explorer1.webp",
+          "/assets/images/prodImages/airExplorer/productPage/carousel1/car1Explorer2.webp",
+          "/assets/images/prodImages/airExplorer/productPage/carousel1/car1Explorer3.webp",
+          "/assets/images/prodImages/airExplorer/productPage/carousel1/car1Explorer4.webp",
+          "/assets/images/prodImages/airExplorer/productPage/carousel1/car1Explorer5.webp"
+         ],
+         "smallTopSlides":[
+          "/assets/images/prodImages/airExplorer/productPage/carousel2/car2Explorer1.webp",
+          "/assets/images/prodImages/airExplorer/productPage/carousel2/car2Explorer2.webp"
+         ],
+         "smallBottomSlides":[
+          "/assets/images/prodImages/airExplorer/productPage/carousel3/car3Explorer1.webp",
+          "/assets/images/prodImages/airExplorer/productPage/carousel3/car3Explorer2.webp"
+         ],
+         "schematics": "/assets/images/schematics/vestSchema.svg" 
+      },
+      {
+         "id":"air-bubbleBlack",
+         "imageCount": 3,
+         "href1":"/",
+         "src1":"/assets/images/prodImages/bubbleBlack/homePage/bubbleBlack1.webp",
+         "alt1":"Air Bubble Black Vest",
+         "href2":"/",
+         "src2":"/assets/images/prodImages/bubbleBlack/homePage/bubbleBlack2.webp",
+         "alt2":"Air Bubble Black Vest",
+         "href3":"/",
+         "src3":"/assets/images/prodImages/bubbleBlack/homePage/bubbleBlackMob.webp",
+         "alt3":"Air Bubble Black Vest",
+         "schematicsrc":"/assets/images/schematics/vestSchema.svg",
+         "schematicalt":"Vest Schematics",
+         "schematicsrc2":"/assets/images/schematics/vestSchema.svg",
+         "schematicalt2":"Vest Schematics",
+         "schemaWidth":600,
+         "width":900,
+         "height":0,
+         "width2":900,
+         "height2":0,
+         "slides":[
+            "/assets/images/prodImages/bubbleBlack/homePage/carousel/carBubbleBlack1.webp",
+            "/assets/images/prodImages/bubbleBlack/homePage/carousel/carBubbleBlack2.webp",
+            "/assets/images/prodImages/bubbleBlack/homePage/carousel/carBubbleBlack3.webp"
+         ],
+         "productName":"VR: AIR BUBBLE BLACK",
+         "productDesc":"This device was original designed to house VR technologies and can accommodate other wearable technologies, with its access pockets and wire conduits, allowing users with the possibility of testing out their own ideas. The VR Air Vest comes equipped with an environmental carbon sensor allowing users to get accurate indoor and outdoor readings.",
+         "productDesc2":"This device was original designed to house VR technologies and can accommodate other wearable technologies, with its access pockets and wire conduits, allowing users with the possibility of testing out their own ideas  ......",
+         "largeImageSlides":[
+          "/assets/images/prodImages/bubbleBlack/productPage/carousel1/car1bubbleBlack1.webp",
+          "/assets/images/prodImages/bubbleBlack/productPage/carousel1/car1bubbleBlack2.webp",
+          "/assets/images/prodImages/bubbleBlack/productPage/carousel1/car1bubbleBlack3.webp",
+          "/assets/images/prodImages/bubbleBlack/productPage/carousel1/car1bubbleBlack4.webp",
+          "/assets/images/prodImages/bubbleBlack/productPage/carousel1/car1bubbleBlack5.webp",
+          "/assets/images/prodImages/bubbleBlack/productPage/carousel1/car1bubbleBlack6.webp"
+         ],
+         "smallTopSlides":[
+          "/assets/images/prodImages/bubbleBlack/productPage/carousel2/car2bubbleBlack1.webp",
+          "/assets/images/prodImages/bubbleBlack/productPage/carousel2/car2bubbleBlack2.webp"
+         ],
+         "smallBottomSlides":[
+          "/assets/images/prodImages/bubbleBlack/productPage/carousel3/car3bubbleBlack1.webp",
+          "/assets/images/prodImages/bubbleBlack/productPage/carousel3/car3bubbleBlack2.webp"
+         ],
+         "schematics": "/assets/images/schematics/vestSchema.svg" 
+      },
+      {
+         "id":"air-carbon",
+         "imageCount": 4,
+         "href1":"/",
+         "src1":"/assets/images/prodImages/airCarbon/homePage/carbon1.webp",
+         "alt1":"Air Carbon Vest",
+         "href2":"/",
+         "src2":"/assets/images/prodImages/airCarbon/homePage/carbon2.webp",
+         "alt2":"Air Carbon Vest",
+         "href3":"/",
+         "src3":"/assets/images/prodImages/airCarbon/homePage/carbonMob.webp",
+         "alt3":"Air Carbon Vest",
+         "schematicsrc":"/assets/images/schematics/vestSchema.svg",
+         "schematicalt":"Vest Schematics",
+         "schematicsrc2":"/assets/images/schematics/vestSchema.svg",
+         "schematicalt2":"Vest Schematics",
+         "schemaWidth":600,
+         "width":900,
+         "height":0,
+         "width2":600,
+         "height2":0,
+         "slides":[
+            "/assets/images/prodImages/airCarbon/homePage/carousel/carCarbon1.webp",
+            "/assets/images/prodImages/airCarbon/homePage/carousel/carCarbon2.webp",
+            "/assets/images/prodImages/airCarbon/homePage/carousel/carCarbon3.webp",
+            "/assets/images/prodImages/airCarbon/homePage/carousel/carCarbon4.webp"
+         ],
+         "productName":"VR: AIR CARBON",
+         "productDesc":"The VR Air Carbon explores materiality in a whole new way. The effects of carbon on the environment is becoming more and more prevalent with each day. Environmental awareness is woven into the fabric- the patina-like texture Is more symbolic than it is functional representing the oxidation of carbon steel, a reminder that time is running out. Armed with real-time data and insights, you have the power to make informed decisions that benefit both yourself and the planet. From reducing indoor pollutants to advocating for cleaner air initiatives, every action you take makes a difference and you are reminded of this with each step.",
+         "productDesc2":"The VR Air Carbon explores materiality in a whole new way. The effects of carbon on the environment is becoming more and more prevalent with each day. Environmental awareness is woven into the fabric- the patina-like texture   ......",
+         "largeImageSlides":[
+             "/assets/images/prodImages/airCarbon/productPage/carousel1/car1Carbon1.webp",
+             "/assets/images/prodImages/airCarbon/productPage/carousel1/car1Carbon2.webp"
+          ],
+          "largeImageSlides2":[
+             "/assets/images/prodImages/airCarbon/productPage/carousel2/car2Carbon1.webp",
+             "/assets/images/prodImages/airCarbon/productPage/carousel2/car2Carbon2.webp"
+          ],
+          "smallTopSlides":[
+             "/assets/images/prodImages/airCarbon/productPage/carousel3/car3Carbon1.webp"
+          ],
+          "smallBottomSlides":[
+             "/assets/images/prodImages/airCarbon/productPage/carousel4/car4Carbon1.webp"
+          ],
+          "schematics": "/assets/images/schematics/vestSchema.svg"         
+      },
+      {
+         "id":"thermal-pants",
+         "imageCount":3,
+         "href1":"/",
+         "src1":"/assets/images/prodImages/thermalPants/homePage/pants1.webp",
+         "alt1":"Air Thermal Pants",
+         "href2":"/",
+         "src2":"/assets/images/prodImages/thermalPants/homePage/pants2.webp",
+         "alt2":"Air Thermal Pants",
+         "href3":"/",
+         "src3":"/assets/images/prodImages/thermalPants/homePage/pantsMob.webp",
+         "alt3":"Air Thermal Pants",
+         "schematicsrc":"/assets/images/schematics/pantsSchema.png",
+         "schematicalt":"Pants Schematics",
+         "schematicsrc2":"/assets/images/schematics/mobSchema.png",
+         "schematicalt2":"Pants Schematics",
+         "schemaWidth":1125,
+         "width":1100,
+         "height":0,
+         "width2":500,
+         "height2":0,
+         "slides":[
+            "/assets/images/prodImages/thermalPants/homePage/carousel/carPants1.webp",
+            "/assets/images/prodImages/thermalPants/homePage/carousel/carPants2.webp",
+            "/assets/images/prodImages/thermalPants/homePage/carousel/carPants3.webp",
+            "/assets/images/prodImages/thermalPants/homePage/carousel/carPants4.webp"
+         ],
+         "productName":"VR: THERMAL PANTS",
+         "productDesc":"Whether you're trekking through the wilderness or navigating the urban jungle, the VR Prototype Pants are your ultimate companion for long-distance travel. With the ability to monitor shifting environmental temperatures on the go, you can adapt and adjust your journey with ease, ensuring a seamless and comfortable experience from start to finish. Environmental temperature information is right at your fingertips. Seamlessly integrated LED lights embedded into the fabric provide real-time temperature readings, allowing you to stay informed and connected no matter where your adventures take you. Simply glance down and let the subtle colors guide you, eliminating the need for additional devices or distractions. Whether you're a seasoned explorer or simply seeking new experiences, these pants empower you to connect with your environment, adapt to changing conditions, and embrace the journey with confidence and style. So go ahead, step into a new terrain, and let your adventures begin.",
+         "productDesc2":"Whether you're trekking through the wilderness or navigating the urban jungle, the VR Prototype Pants are your ultimate companion for long-distance travel. With the ability to monitor shifting environmental temperatures on the go ......",
+         "largeImageSlides":[
+          "/assets/images/prodImages/thermalPants/productPage/carousel1/car1Pants1.webp",
+          "/assets/images/prodImages/thermalPants/productPage/carousel1/car1Pants2.webp",
+          "/assets/images/prodImages/thermalPants/productPage/carousel1/car1Pants3.webp"
+         ],
+         "smallTopSlides":[
+          "/assets/images/prodImages/thermalPants/productPage/carousel2/car2Pants1.webp",
+          "/assets/images/prodImages/thermalPants/productPage/carousel2/car2Pants2.webp",
+          "/assets/images/prodImages/thermalPants/productPage/carousel2/car2Pants3.webp",
+          "/assets/images/prodImages/thermalPants/productPage/carousel2/car2Pants4.webp"
+         ],
+         "smallBottomSlides":[
+          "/assets/images/prodImages/thermalPants/productPage/carousel3/car3Pants1.webp",
+          "/assets/images/prodImages/thermalPants/productPage/carousel3/car3Pants2.webp"
+         ],
+         "schematics": "/assets/images/schematics/pantsSchema.png" 
+      },
+      {
+         "id":"nfc-shorts",
+         "imageCount":3,
+         "href1":"/",
+         "src1":"/assets/images/prodImages/nfcShorts/homePage/shorts1.webp",
+         "alt1":"NFC Shorts ",
+         "href2":"/",
+         "src2":"/assets/images/prodImages/nfcShorts/homePage/shorts2.webp",
+         "alt2":"NFC Shorts ",
+         "href3":"/",
+         "src3":"/assets/images/prodImages/nfcShorts/homePage/shortsMob.webp",
+         "alt3":"NFC Shorts ",
+         "schematicsrc":"/assets/images/schematics/shortsSchema.png",
+         "schematicalt":"Shorts Schematics",
+         "schematicsrc2":"/assets/images/schematics/shortsSchema.png",
+         "schematicalt2":"Shorts Schematics",
+         "schemaWidth":600,
+         "width":900,
+         "height":0,
+         "width2":600,
+         "height2":0,
+         "slides":[
+            "/assets/images/prodImages/nfcShorts/homePage/carousel/carShorts1.webp",
+            "/assets/images/prodImages/nfcShorts/homePage/carousel/carShorts2.webp",
+            "/assets/images/prodImages/nfcShorts/homePage/carousel/carShorts3.webp"
+         ],
+         "productName":"VR: NFC SHORTS",
+         "productDesc":"Say goodbye to forgetfulness and hello to efficiency with the VR NFC Shorts. Equipped with programmable NFC chips, these shorts put the power of customization in your hands. Originally designed to assist with memorizing daily tasks, the possibilities are endless. Whether it's setting reminders, accessing important information, or simplifying everyday tasks, the programmable NFC chip allows you to tailor your experience to suit your unique needs and preferences. Due to the comfort and breathability of the neoprene on skin these shorts can be worn in many conditions.",
+         "productDesc2":"Say goodbye to forgetfulness and hello to efficiency with the VR NFC Shorts. Equipped with programmable NFC chips, these shorts put the power of customization in your hands. Originally designed to assist with memorizing daily ......",
+         "largeImageSlides":[
+          "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts1.webp",
+          "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts2.webp",
+          "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts3.webp",
+          "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts4.webp",
+          "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts5.webp"
+         ],
+         "smallTopSlides":[
+          "/assets/images/prodImages/nfcShorts/productPage/carousel2/car2Shorts1.webp"
+         ],
+         "smallBottomSlides":[
+          "/assets/images/prodImages/nfcShorts/productPage/carousel3/car3Shorts1.webp"
+         ],
+         "schematics": "/assets/images/schematics/shortsSchema.png"
+      },
+      {
+         "id":"sheath-warmer",
+         "imageCount":3,
+         "href1":"/",
+         "src1":"/assets/images/prodImages/sheathWarmer/homePage/sheath1.webp",
+         "alt1":"Sheath Warmer",
+         "href2":"/",
+         "src2":"/assets/images/prodImages/sheathWarmer/homePage/sheath2.webp",
+         "alt2":"Sheath Warmer",
+         "href3":"/",
+         "src3":"/assets/images/prodImages/sheathWarmer/homePage/sheathMob.webp",
+         "alt3":"Sheath Warmer",
+         "schematicsrc":"/assets/images/schematics/sheathSchema.png",
+         "schematicalt":"Sheath Schematics",
+         "schematicsrc2":"/assets/images/schematics/sheathSchema.png",
+         "schematicalt2":"Sheath Schematics",
+         "schemaWidth":975,
+         "width":900,
+         "height":0,
+         "width2":600,
+         "height2":0,
+         "slides":[
+            "/assets/images/prodImages/sheathWarmer/homePage/carousel/carSheath1.webp",
+            "/assets/images/prodImages/sheathWarmer/homePage/carousel/carSheath2.webp",
+            "/assets/images/prodImages/sheathWarmer/homePage/carousel/carSheath3.webp"
+         ],
+         "productName":"VR: SHEATH WARMER",
+         "productDesc":"Whether you're braving the cold or simply seeking a little extra warmth on a chilly day, VR Sheath Warmer is the perfect accessory for every occasion. Slip them on, feel the comforting embrace of warmth, and step confidently into the world, knowing that wherever you go, comfort and coziness are never far behind. Crafted with versatility in mind, the VR Sheath Warmer is more than just a fashion statement—it’s a practical solution to cold weather keeping your hands warm with a built in heat pad. With this technology being around for so long the main proposal was exploring how to make what already exists better. Exploring sewing techniques as well as embedded Fidlocks adds a unique twist allowing users to strap this sheath on to different parts of the body.",
+         "productDesc2":"Whether you're braving the cold or simply seeking a little extra warmth on a chilly day, VR Sheath Warmer is the perfect accessory for every occasion. Slip them on, feel the comforting embrace of warmth, and step confidently  ......",
+         "largeImageSlides":[
+          "/assets/images/prodImages/sheathWarmer/productPage/carousel1/car1Sheath1.webp",
+          "/assets/images/prodImages/sheathWarmer/productPage/carousel1/car1Sheath2.webp"
+         ],
+         "smallTopSlides":[
+          "/assets/images/prodImages/sheathWarmer/productPage/carousel2/car2Sheath1.webp",
+          "/assets/images/prodImages/sheathWarmer/productPage/carousel2/car2Sheath2.webp"
+         ],
+         "smallBottomSlides":[
+          "/assets/images/prodImages/sheathWarmer/productPage/carousel3/car3Sheath1.webp",
+          "/assets/images/prodImages/sheathWarmer/productPage/carousel3/car3Sheath2.webp",
+          "/assets/images/prodImages/sheathWarmer/productPage/carousel3/car3Sheath3.webp"
+         ],
+         "schematics": "/assets/images/schematics/sheathSchema.png"
+      },
+      {
+         "id":"golden-leaf",
+         "imageCount":3,
+         "href1":"/",
+         "src1":"/assets/images/prodImages/goldenLeaf/homePage/goldenLeaf2.webp",
+         "alt1":"Golden Leaf",
+         "href2":"/",
+         "src2":"/assets/images/prodImages/goldenLeaf/homePage/goldenLeaf1.webp",
+         "alt2":"Golden Leaf",
+         "href3":"/",
+         "src3":"/assets/images/prodImages/goldenLeaf/homePage/goldenLeafMob.webp",
+         "alt3":"Golden Leaf",
+         "schematicsrc":"/assets/images/schematics/blankSpace.svg",
+         "schematicalt":"Vest Schematics",
+         "schematicsrc2":"/assets/images/schematics/blankSpace.svg",
+         "schematicalt2":"Vest Schematics",
+         "schemaWidth":270,
+         "width":900,
+         "height":0,
+         "width2":100,
+         "height2":0,
+         "slides":[
+            "/assets/images/prodImages/goldenLeaf/homePage/carousel/carGoldenLeaf1.webp",
+            "/assets/images/prodImages/goldenLeaf/homePage/carousel/carGoldenLeaf2.webp"
+         ],
+         "productName":"VR: GOLDEN LEAF",
+         "productDesc":"Experience the perfect balance of freedom and security with the VR Golden Leaf. Designed to accommodate plates for enhanced protection, this vest offers unparalleled versatility, allowing users to wear it loosely for maximum mobility or fitted for optimal defense, depending on the situation. With the ability to adapt on the fly, warriors can move with confidence, knowing they're prepared for whatever comes their way. VR Golden Leaf features Fidlock technology for easy strap-on and off mechanics. With a simple flick of the wrist, users can secure their vest in place or remove it in a matter of seconds, ensuring swift transitions and uninterrupted focus on the mission at hand. This concept was one of the first attempts to design a product that balances the stiffness of a “technology” and the loosenest of fabric, layout and placement being key in the process. Additionally understanding how technology can be present without the need for electricity for power but purely through the adaptability of the product.",
+         "productDesc2":"Experience the perfect balance of freedom and security with the VR Golden Leaf. Designed to accommodate plates for enhanced protection, this vest offers unparalleled versatility, allowing users to wear it loosely for maximum ......",
+         "largeImageSlides":[
+          "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf1.webp",
+          "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf2.webp",
+          "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf3.webp",
+          "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf4.webp",
+          "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf5.webp",
+          "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf6.jpg"       
+         ],
+         "smallTopSlides":[
+          "/assets/images/prodImages/goldenLeaf/productPage/carousel2/car2GoldenLeaf1.webp"
+         ],
+         "smallBottomSlides":[
+          "/assets/images/prodImages/goldenLeaf/productPage/carousel3/car3GoldenLeaf1.webp"
+         ]
+      },
+      {
+         "id":"terrain-1s",
+         "imageCount":4,
+         "href1":"/",
+         "src1":"/assets/images/prodImages/terrain1/homePage/terrain1.webp",
+         "alt1":"Terrain 1s",
+         "href2":"/",
+         "src2":"/assets/images/prodImages/terrain1/homePage/terrain2.webp",
+         "alt2":"Terrain 1S",
+         "href3":"/",
+         "src3":"/assets/images/prodImages/terrain1/homePage/terrainMob.webp",
+         "alt3":"Terrain 1S",
+         "schematicsrc":"/assets/images/schematics/blankSpace.webp",
+         "schematicalt":"Vest Schematics",
+         "schematicsrc2":"/assets/images/schematics/blankSpace.webp",
+         "schematicalt2":"Vest Schematics",
+         "schemaWidth":350,
+         "width":600,
+         "height":0,
+         "width2":100,
+         "height2":0,
+         "slides":[
+            "/assets/images/prodImages/terrain1/homePage/carousel/carTerrain1.webp",
+            "/assets/images/prodImages/terrain1/homePage/carousel/carTerrain2.webp",
+            "/assets/images/prodImages/terrain1/homePage/carousel/carTerrain3.webp",
+            "/assets/images/prodImages/terrain1/homePage/carousel/carTerrain4.webp",
+            "/assets/images/prodImages/terrain1/homePage/carousel/carTerrain5.webp"
+         ],
+         "productName":"VR: TERRAIN 1S",
+         "productDesc":"VR Terrain 1S, a visionary concept design that blurs the lines between textiles and cutting-edge technology. Inspired by the terrain of the city streets and the intricate circuits of a PCB board, this concept redefines the boundaries of textile design and wearable innovation, challenging the way technology should integrate with textiles being that both have their own constraints. This concept exemplifies the resolution of technology and how it can be conceived, like should the wires be visible and how can its visibility inform the textile?",
+         "productDesc2":"VR Terrain 1S, a visionary concept design that blurs the lines between textiles and cutting-edge technology. Inspired by the terrain of the city streets and the intricate circuits of a PCB board, this concept redefines the boundaries .....",
+         "largeImageSlides":[
+          "/assets/images/prodImages/terrain1/productPage/carousel1/1.webp",
+          "/assets/images/prodImages/terrain1/productPage/carousel1/2.webp",
+          "/assets/images/prodImages/terrain1/productPage/carousel1/3.webp",
+          "/assets/images/prodImages/terrain1/productPage/carousel1/4.webp",
+          "/assets/images/prodImages/terrain1/productPage/carousel1/5.webp",
+          "/assets/images/prodImages/terrain1/productPage/carousel1/6.webp",
+          "/assets/images/prodImages/terrain1/productPage/carousel1/7.webp"
+         ],
+         "largeImageSlides2":[
+          "/assets/images/prodImages/terrain1/productPage/carousel2/1.webp",
+          "/assets/images/prodImages/terrain1/productPage/carousel2/2.webp",
+          "/assets/images/prodImages/terrain1/productPage/carousel2/3.webp",
+          "/assets/images/prodImages/terrain1/productPage/carousel2/4.webp",
+          "/assets/images/prodImages/terrain1/productPage/carousel2/5.webp",
+          "/assets/images/prodImages/terrain1/productPage/carousel2/6.webp",
+          "/assets/images/prodImages/terrain1/productPage/carousel2/7.webp"
+         ],
+         "smallTopSlides":[
+          "/assets/images/prodImages/terrain1/productPage/carousel3/car3Terrain1.webp",
+          "/assets/images/prodImages/terrain1/productPage/carousel3/car3Terrain2.webp",
+          "/assets/images/prodImages/terrain1/productPage/carousel3/car3Terrain3.webp",
+          "/assets/images/prodImages/terrain1/productPage/carousel3/car3Terrain4.webp"
+         ],
+         "smallBottomSlides":[
+          "/assets/images/prodImages/terrain1/productPage/carousel4/car4Terrain1.webp",
+          "/assets/images/prodImages/terrain1/productPage/carousel4/car4Terrain2.webp"
+         ]
+      }
+   ]
+ 
