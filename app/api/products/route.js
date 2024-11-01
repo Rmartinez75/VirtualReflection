@@ -6,19 +6,16 @@ import { NextResponse } from 'next/server';
 export async function GET(req) {
   const filePath = path.join(process.cwd(), 'public', 'products.json');
 
-  // Check if the file exists
   if (!fs.existsSync(filePath)) {
     return NextResponse.json({ error: "File not found" }, { status: 404 });
   }
 
   const jsonData = fs.readFileSync(filePath, 'utf8');
 
-  console.log("Response data:", jsonData); // Log the raw response data
-
   try {
     const products = JSON.parse(jsonData);
-
-    // Create a response and set the cookie
+    
+    // Set the cookie with the correct attributes
     const res = NextResponse.json(products);
     res.cookies.set('__vercel_live_token', 'value', {
       sameSite: 'None',
@@ -29,7 +26,6 @@ export async function GET(req) {
 
     return res;
   } catch (error) {
-    console.error("Error parsing JSON:", error);
     return NextResponse.json({ error: "Error parsing JSON" }, { status: 500 });
   }
 }
