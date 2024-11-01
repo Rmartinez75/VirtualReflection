@@ -172,11 +172,9 @@ const ProductDetails = async ({ params }) => {
             <p style={{ fontSize: '12px' }}>{product.technology?.join(', ')}</p>
             <br /><br />
             <div className='flex' style={{ fontSize: '12px' }}>
-              <p>
-                SIZE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TYPE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href='/register' className='flex'>GET NOTIFIED:</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EMAIL HERE
-              </p>
+              <span className='flex row-span-6'>
+                SIZE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TYPE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/register' className='flex'>GET NOTIFIED:</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EMAIL HERE
+              </span>
             </div>
             <br />
             <p style={{ fontSize: '12px' }}>DOWNLOAD OPTIONS: FOR OPEN SOURCE ADD EMAIL FOR DOWNLOAD</p>
