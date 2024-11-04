@@ -49,6 +49,7 @@
           "/assets/images/prodImages/airCanvas/productPage/carousel4/car4Canvas1.webp",
           "/assets/images/prodImages/airCanvas/productPage/carousel4/car4Canvas2.webp"
          ],
+         "textiles":"Synthetic Neoprene, Cotton Canvas",
          "schematics": "/assets/images/schematics/vestSchema.svg" 
       },
       {
@@ -95,6 +96,7 @@
           "/assets/images/prodImages/airExplorer/productPage/carousel3/car3Explorer1.webp",
           "/assets/images/prodImages/airExplorer/productPage/carousel3/car3Explorer2.webp"
          ],
+         "textiles":"Synthetic Neoprene, Nylon, flux suede",
          "schematics": "/assets/images/schematics/vestSchema.svg" 
       },
       {
@@ -142,6 +144,7 @@
           "/assets/images/prodImages/bubbleBlack/productPage/carousel3/car3bubbleBlack1.webp",
           "/assets/images/prodImages/bubbleBlack/productPage/carousel3/car3bubbleBlack2.webp"
          ],
+         "textiles":"Black Nylon, Gray Synthetic Neoprene Inner",
          "schematics": "/assets/images/schematics/vestSchema.svg" 
       },
       {
@@ -188,6 +191,12 @@
           "smallBottomSlides":[
              "/assets/images/prodImages/airCarbon/productPage/carousel4/car4Carbon1.webp"
           ],
+          "textiles":"Synthetic Neoprene, Cotton Canvas",
+          "technology": [
+            "ESP32",
+            "SCD40",
+            "Adafruit GPS Mini"
+         ],
           "schematics": "/assets/images/schematics/vestSchema.svg"         
       },
       {
@@ -235,6 +244,8 @@
           "/assets/images/prodImages/thermalPants/productPage/carousel3/car3Pants1.webp",
           "/assets/images/prodImages/thermalPants/productPage/carousel3/car3Pants2.webp"
          ],
+         "textiles":"Synthetic Neoprene, Nylon",
+         "technology":["Arduino nano 33 IoT", "MPL3115A2 - Barometric Pressure/Altitude/Temperature Sensor", "RGB LED", "Rechargeable battery power"],
          "schematics": "/assets/images/schematics/pantsSchema.png" 
       },
       {
@@ -279,6 +290,8 @@
          "smallBottomSlides":[
           "/assets/images/prodImages/nfcShorts/productPage/carousel3/car3Shorts1.webp"
          ],
+         "textiles":"Synthetic Neoprene, Synthetic Leather, Neoprene",
+         "technology":"Flexible Textile NFC Tags NTAG212 30x30 mm",
          "schematics": "/assets/images/schematics/shortsSchema.png"
       },
       {
@@ -323,6 +336,8 @@
           "/assets/images/prodImages/sheathWarmer/productPage/carousel3/car3Sheath2.webp",
           "/assets/images/prodImages/sheathWarmer/productPage/carousel3/car3Sheath3.webp"
          ],
+         "textiles":"Olive Green Faux Suede, Black Nylon, Neoprene",
+         "technology":"",
          "schematics": "/assets/images/schematics/sheathSchema.png"
       },
       {
@@ -366,7 +381,9 @@
          ],
          "smallBottomSlides":[
           "/assets/images/prodImages/goldenLeaf/productPage/carousel3/car3GoldenLeaf1.webp"
-         ]
+         ],
+         "textiles":"Nylon/Felt With Black Cotton Lining, Orange Nylon Webbing Strap",
+         "technology":""
       },
       {
          "id":"terrain-1s",
@@ -426,7 +443,9 @@
          "smallBottomSlides":[
           "/assets/images/prodImages/terrain1/productPage/carousel4/car4Terrain1.webp",
           "/assets/images/prodImages/terrain1/productPage/carousel4/car4Terrain2.webp"
-         ]
+         ],
+         "textiles":"Canvas, Paint, Black Cotton Canvas Inner",
+         "technology":""
       }
    ]
  

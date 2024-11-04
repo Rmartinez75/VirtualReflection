@@ -156,28 +156,38 @@ const ProductDetails = async ({ params }) => {
 
         {/* Right column with product details (shared) */}
         <div className='w-auto ml-5 mr-10'>
-          <div className="mt-8 overflow-scroll h-[1050px] no-scrollbar">
+          <div className="mt-8 overflow-scroll h-[1050px] no-scrollbar text-[12px]">
             <p className="font-bold" style={{ fontSize: '14px' }}>{product.productName}</p>
+           
+            <p className='mt-5'>DESCRIPTION</p>
             <br />
-            <p style={{ fontSize: '12px' }}>DESCRIPTION</p>
-            <br />
-            <p style={{ fontSize: '12px' }}>{product.productDesc}</p>
-            <br /><br />
-            <p style={{ fontSize: '12px' }}>TEXTILE</p>
-            <br />
-            <p style={{ fontSize: '12px' }}>{product.textile}</p>
-            <br /><br />
-            <p style={{ fontSize: '12px' }}>TECHNOLOGY</p>
-            <br />
-            <p style={{ fontSize: '12px' }}>{product.technology?.join(', ')}</p>
-            <br /><br />
-            <div className='flex' style={{ fontSize: '12px' }}>
-              <span className='flex row-span-6'>
+            {product.productDesc}
+           
+            <p className='mt-[50px]'>TEXTILE</p>
+            
+            <p className='mt-5'>{product.textiles}</p>
+            
+            <p className='mt-[50px]'>TECHNOLOGY</p>
+
+            <p className='mt-5'>
+              {product.technology?.map((item, index) => (
+                <span key={index}>
+                  {item}
+                  {index < product.technology.length - 1 && <br />}
+                </span>
+              ))}
+            </p>
+
+           
+            {/* <p className='mt-5 flex columns-1'>{product.technology?.join('')}</p> */}
+          
+            <div className='flex'>
+              <span className='flex row-span-6 mt-[50px]'>
                 SIZE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TYPE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/register' className='flex'>GET NOTIFIED:</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EMAIL HERE
               </span>
             </div>
             <br />
-            <p style={{ fontSize: '12px' }}>DOWNLOAD OPTIONS: FOR OPEN SOURCE ADD EMAIL FOR DOWNLOAD</p>
+            <p className='mt-[50px]'>DOWNLOAD OPTIONS: FOR OPEN SOURCE ADD EMAIL FOR DOWNLOAD</p>
           </div>
         </div>
       </div>

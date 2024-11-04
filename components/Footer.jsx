@@ -6,7 +6,7 @@ import Link from 'next/link'
 function Footer() {
   return (
     <>
-        <div className='block text-center lg:text-left lg:flex lg:justify-center lg:space-x-[20%] mt-[50px] mb-[50px]'>
+        <div id='links-section' className='block text-center lg:text-left lg:flex lg:justify-center lg:space-x-[20%] mt-[50px] mb-[50px]'>
             <div className='leading-8 lg:leading-7'>
                 <ul>
                     <li>
@@ -147,7 +147,9 @@ function Footer() {
                 </ul>
             </div>
         </div>
-        <div className='bg-[#28231d] text-white text-[10px] p-5 bottom-0'>
+        <div 
+            id='copyright-section' 
+            className='bg-[#28231d] text-white text-[10px] p-5 bottom-0'>
             <span className='flex justify-center'>
                 &copy;Copyright Metaphysical Abstract Design
             </span>
