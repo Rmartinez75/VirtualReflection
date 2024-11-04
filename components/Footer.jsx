@@ -9,10 +9,10 @@ function Footer() {
         <div id='links-section' className='block text-center lg:text-left lg:flex lg:justify-center lg:space-x-[20%] mt-[50px] mb-[50px]'>
             <div className='leading-8 lg:leading-7'>
                 <ul>
-                    <li>
-                        <span className='text-[13px] underline font-bold'>
+                    <li className='text-[13px] underline font-bold'>
+                        
                             RESOURCES
-                        </span>
+                        
                     </li>
                     <li className="text-[12px]">
                         <Link 
@@ -76,10 +76,10 @@ function Footer() {
             </div>
             <div className='leading-8 lg:leading-7'>
                 <ul>
-                    <li>
-                        <span className='text-[13px] underline font-bold'>
+                    <li className='text-[13px] underline font-bold'>
+                        
                             COMMUNITY
-                        </span>
+                        
                     </li>
                     <li className="text-[12px]">
                         <Link 
@@ -130,10 +130,10 @@ function Footer() {
             </div>
             <div className='leading-8 lg:leading-7'>
                 <ul>
-                    <li>
-                        <span className='text-[13px] underline font-bold'>
+                    <li className='text-[13px] underline font-bold'>
+                        
                             CONTACT
-                        </span>
+                        
                     </li>
                     <li className="text-[12px]">
                         <Link 
@@ -149,10 +149,10 @@ function Footer() {
         </div>
         <div 
             id='copyright-section' 
-            className='bg-[#28231d] text-white text-[10px] p-5 bottom-0'>
-            <span className='flex justify-center'>
+            className='bg-[#28231d] text-white text-[10px] p-5 bottom-0 flex justify-center'>
+            
                 &copy;Copyright Metaphysical Abstract Design
-            </span>
+           
         </div>
     </>
   )
