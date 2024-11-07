@@ -100,7 +100,7 @@ const ProductList = () => {
               <p className="block lg:hidden text-black">{product.productDesc2}</p>
             </div>
             <div className="block lg:hidden">
-              <div className="mt-[75px]">
+              <div className="mt-[55px] mb-[55px] flex justify-center">
                 <Image
                   src={product.schematicsrc2}
                   alt={product.schematicalt2}
