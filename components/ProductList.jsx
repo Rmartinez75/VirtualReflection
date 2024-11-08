@@ -99,8 +99,8 @@ const ProductList = () => {
               <p className="hidden lg:flex text-black">{product.productDesc}</p>
               <p className="block lg:hidden text-black">{product.productDesc2}</p>
             </div>
-            <div className="block lg:hidden">
-              <div className="mt-[55px] mb-[55px] flex justify-center">
+            <div className="block lg:hidden min-w-max justify-center items-center text-center object-center content-center">
+              <div className="mt-[30px] mb-[55px] flex justify-center">
                 <Image
                   src={product.schematicsrc2}
                   alt={product.schematicalt2}

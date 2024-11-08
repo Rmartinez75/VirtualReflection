@@ -19,7 +19,7 @@
          "schemaWidth":600,
          "width":600,
          "height":0,
-         "width2":600,
+         "width2":400,
          "height2":0,
          "slides":[
             "/assets/images/prodImages/airCanvas/homePage/carousel/carCanvas1.webp",
@@ -76,7 +76,7 @@
          "schemaWidth":600,
          "width":900,
          "height":0,
-         "width2":600,
+         "width2":400,
          "height2":0,
          "slides":[
             "/assets/images/prodImages/airExplorer/homePage/carousel/carExplorer1.webp",
@@ -124,7 +124,7 @@
          "schemaWidth":600,
          "width":900,
          "height":0,
-         "width2":900,
+         "width2":400,
          "height2":0,
          "slides":[
             "/assets/images/prodImages/bubbleBlack/homePage/carousel/carBubbleBlack1.webp",
@@ -173,7 +173,7 @@
          "schemaWidth":600,
          "width":900,
          "height":0,
-         "width2":600,
+         "width2":400,
          "height2":0,
          "slides":[
             "/assets/images/prodImages/airCarbon/homePage/carousel/carCarbon1.webp",
@@ -278,7 +278,7 @@
          "schemaWidth":600,
          "width":900,
          "height":0,
-         "width2":800,
+         "width2":400,
          "height2":0,
          "slides":[
             "/assets/images/prodImages/nfcShorts/homePage/carousel/carShorts1.webp",
