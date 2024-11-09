@@ -21,6 +21,7 @@
          "height":0,
          "width2":400,
          "height2":0,
+         "width3":500,
          "slides":[
             "/assets/images/prodImages/airCanvas/homePage/carousel/carCanvas1.webp",
             "/assets/images/prodImages/airCanvas/homePage/carousel/carCanvas2.webp",
@@ -48,6 +49,16 @@
          "smallBottomSlides":[
           "/assets/images/prodImages/airCanvas/productPage/carousel4/car4Canvas1.webp",
           "/assets/images/prodImages/airCanvas/productPage/carousel4/car4Canvas2.webp"
+         ],
+         "mobLargeImagesSlides":[
+            "/assets/images/prodImages/airCanvas/productPage/carousel1/1.webp",
+            "/assets/images/prodImages/airCanvas/productPage/carousel1/2.webp",
+            "/assets/images/prodImages/airCanvas/productPage/carousel1/3.webp",
+            "/assets/images/prodImages/airCanvas/productPage/carousel1/4.webp",
+            "/assets/images/prodImages/airCanvas/productPage/carousel2/car2Canvas1.webp",
+            "/assets/images/prodImages/airCanvas/productPage/carousel2/car2Canvas2.webp",
+            "/assets/images/prodImages/airCanvas/productPage/carousel2/car2Canvas3.webp",
+            "/assets/images/prodImages/airCanvas/productPage/carousel2/car2Canvas4.webp"
          ],
          "textiles":"Synthetic Neoprene, Cotton Canvas",
          "technology":[
@@ -78,6 +89,7 @@
          "height":0,
          "width2":400,
          "height2":0,
+         "width3":800,
          "slides":[
             "/assets/images/prodImages/airExplorer/homePage/carousel/carExplorer1.webp",
             "/assets/images/prodImages/airExplorer/homePage/explorer1.webp",
@@ -100,6 +112,13 @@
          "smallBottomSlides":[
           "/assets/images/prodImages/airExplorer/productPage/carousel3/car3Explorer1.webp",
           "/assets/images/prodImages/airExplorer/productPage/carousel3/car3Explorer2.webp"
+         ],
+         "mobLargeImagesSlides":[
+            "/assets/images/prodImages/airExplorer/productPage/carousel1/car1Explorer1.webp",
+            "/assets/images/prodImages/airExplorer/productPage/carousel1/car1Explorer2.webp",
+            "/assets/images/prodImages/airExplorer/productPage/carousel1/car1Explorer3.webp",
+            "/assets/images/prodImages/airExplorer/productPage/carousel1/car1Explorer4.webp",
+            "/assets/images/prodImages/airExplorer/productPage/carousel1/car1Explorer5.webp"
          ],
          "textiles":"Synthetic Neoprene, Nylon, flux suede",
          "technology":["Varies"],
@@ -126,6 +145,7 @@
          "height":0,
          "width2":400,
          "height2":0,
+         "width3":800,
          "slides":[
             "/assets/images/prodImages/bubbleBlack/homePage/carousel/carBubbleBlack1.webp",
             "/assets/images/prodImages/bubbleBlack/homePage/carousel/carBubbleBlack2.webp",
@@ -149,6 +169,14 @@
          "smallBottomSlides":[
           "/assets/images/prodImages/bubbleBlack/productPage/carousel3/car3bubbleBlack1.webp",
           "/assets/images/prodImages/bubbleBlack/productPage/carousel3/car3bubbleBlack2.webp"
+         ],
+         "mobLargeImagesSlides":[
+            "/assets/images/prodImages/bubbleBlack/productPage/carousel1/car1bubbleBlack1.webp",
+            "/assets/images/prodImages/bubbleBlack/productPage/carousel1/car1bubbleBlack2.webp",
+            "/assets/images/prodImages/bubbleBlack/productPage/carousel1/car1bubbleBlack3.webp",
+            "/assets/images/prodImages/bubbleBlack/productPage/carousel1/car1bubbleBlack4.webp",
+            "/assets/images/prodImages/bubbleBlack/productPage/carousel1/car1bubbleBlack5.webp",
+            "/assets/images/prodImages/bubbleBlack/productPage/carousel1/car1bubbleBlack6.webp"
          ],
          "textiles":"Black Nylon, Gray Synthetic Neoprene Inner",
          "technology":["Varies"],
@@ -175,6 +203,7 @@
          "height":0,
          "width2":400,
          "height2":0,
+         "width3":500,
          "slides":[
             "/assets/images/prodImages/airCarbon/homePage/carousel/carCarbon1.webp",
             "/assets/images/prodImages/airCarbon/homePage/carousel/carCarbon2.webp",
@@ -198,6 +227,12 @@
           "smallBottomSlides":[
              "/assets/images/prodImages/airCarbon/productPage/carousel4/car4Carbon1.webp"
           ],
+          "mobLargeImagesSlides":[
+            "/assets/images/prodImages/airCarbon/productPage/carousel1/car1Carbon1.webp",
+            "/assets/images/prodImages/airCarbon/productPage/carousel1/car1Carbon2.webp",
+            "/assets/images/prodImages/airCarbon/productPage/carousel2/car2Carbon1.webp",
+            "/assets/images/prodImages/airCarbon/productPage/carousel2/car2Carbon2.webp"
+         ],
           "textiles":"Synthetic Neoprene, Cotton Canvas",
           "technology": [
             "ESP32",
@@ -227,6 +262,7 @@
          "height":0,
          "width2":200,
          "height2":0,
+         "width3":500,
          "slides":[
             "/assets/images/prodImages/thermalPants/homePage/carousel/carPants1.webp",
             "/assets/images/prodImages/thermalPants/homePage/carousel/carPants2.webp",
@@ -250,6 +286,11 @@
          "smallBottomSlides":[
           "/assets/images/prodImages/thermalPants/productPage/carousel3/car3Pants1.webp",
           "/assets/images/prodImages/thermalPants/productPage/carousel3/car3Pants2.webp"
+         ],
+         "mobLargeImagesSlides":[
+          "/assets/images/prodImages/thermalPants/productPage/carousel1/car1Pants1.webp",
+          "/assets/images/prodImages/thermalPants/productPage/carousel1/car1Pants2.webp",
+          "/assets/images/prodImages/thermalPants/productPage/carousel1/car1Pants3.webp"
          ],
          "textiles":"Synthetic Neoprene, Nylon",
          "technology":[
@@ -280,6 +321,7 @@
          "height":0,
          "width2":400,
          "height2":0,
+         "width3":500,
          "slides":[
             "/assets/images/prodImages/nfcShorts/homePage/carousel/carShorts1.webp",
             "/assets/images/prodImages/nfcShorts/homePage/carousel/carShorts2.webp",
@@ -289,17 +331,24 @@
          "productDesc":"Say goodbye to forgetfulness and hello to efficiency with the VR NFC Shorts. Equipped with programmable NFC chips, these shorts put the power of customization in your hands. Originally designed to assist with memorizing daily tasks, the possibilities are endless. Whether it's setting reminders, accessing important information, or simplifying everyday tasks, the programmable NFC chip allows you to tailor your experience to suit your unique needs and preferences. Due to the comfort and breathability of the neoprene on skin these shorts can be worn in many conditions.",
          "productDesc2":"Say goodbye to forgetfulness and hello to efficiency with the VR NFC Shorts. Equipped with programmable NFC chips, these shorts put the power of customization in your hands. Originally designed to assist with memorizing daily ......",
          "largeImageSlides":[
-          "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts1.webp",
-          "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts2.webp",
-          "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts3.webp",
-          "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts4.webp",
-          "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts5.webp"
+            "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts1.webp",
+            "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts2.webp",
+            "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts3.webp",
+            "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts4.webp",
+            "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts5.webp"
          ],
          "smallTopSlides":[
-          "/assets/images/prodImages/nfcShorts/productPage/carousel2/car2Shorts1.webp"
+            "/assets/images/prodImages/nfcShorts/productPage/carousel2/car2Shorts1.webp"
          ],
          "smallBottomSlides":[
-          "/assets/images/prodImages/nfcShorts/productPage/carousel3/car3Shorts1.webp"
+            "/assets/images/prodImages/nfcShorts/productPage/carousel3/car3Shorts1.webp"
+         ],
+         "mobLargeImagesSlides":[
+            "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts1.webp",
+            "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts2.webp",
+            "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts3.webp",
+            "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts4.webp",
+            "/assets/images/prodImages/nfcShorts/productPage/carousel1/car1Shorts5.webp"
          ],
          "textiles":"Synthetic Neoprene, Synthetic Leather, Neoprene",
          "technology":["Flexible Textile NFC Tags NTAG212 30x30 mm"],
@@ -326,6 +375,7 @@
          "height":0,
          "width2":300,
          "height2":0,
+         "width3":900,
          "slides":[
             "/assets/images/prodImages/sheathWarmer/homePage/carousel/carSheath1.webp",
             "/assets/images/prodImages/sheathWarmer/homePage/carousel/carSheath2.webp",
@@ -343,9 +393,13 @@
           "/assets/images/prodImages/sheathWarmer/productPage/carousel2/car2Sheath2.webp"
          ],
          "smallBottomSlides":[
-          "/assets/images/prodImages/sheathWarmer/productPage/carousel3/car3Sheath1.webp",
-          "/assets/images/prodImages/sheathWarmer/productPage/carousel3/car3Sheath2.webp",
-          "/assets/images/prodImages/sheathWarmer/productPage/carousel3/car3Sheath3.webp"
+            "/assets/images/prodImages/sheathWarmer/productPage/carousel3/car3Sheath1.webp",
+            "/assets/images/prodImages/sheathWarmer/productPage/carousel3/car3Sheath2.webp",
+            "/assets/images/prodImages/sheathWarmer/productPage/carousel3/car3Sheath3.webp"
+         ],
+         "mobLargeImagesSlides":[
+            "/assets/images/prodImages/sheathWarmer/productPage/carousel1/car1Sheath1.webp",
+            "/assets/images/prodImages/sheathWarmer/productPage/carousel1/car1Sheath2.webp"
          ],
          "textiles":"Olive Green Faux Suede, Black Nylon, Neoprene",
          "technology":["USB Powered Nickel Chromium Coil Heat pad"],
@@ -372,6 +426,7 @@
          "height":0,
          "width2":100,
          "height2":0,
+         "width3":900,
          "slides":[
             "/assets/images/prodImages/goldenLeaf/homePage/carousel/carGoldenLeaf1.webp",
             "/assets/images/prodImages/goldenLeaf/homePage/carousel/carGoldenLeaf2.webp"
@@ -380,18 +435,26 @@
          "productDesc":"Experience the perfect balance of freedom and security with the VR Golden Leaf. Designed to accommodate plates for enhanced protection, this vest offers unparalleled versatility, allowing users to wear it loosely for maximum mobility or fitted for optimal defense, depending on the situation. With the ability to adapt on the fly, warriors can move with confidence, knowing they're prepared for whatever comes their way. VR Golden Leaf features Fidlock technology for easy strap-on and off mechanics. With a simple flick of the wrist, users can secure their vest in place or remove it in a matter of seconds, ensuring swift transitions and uninterrupted focus on the mission at hand. This concept was one of the first attempts to design a product that balances the stiffness of a “technology” and the loosenest of fabric, layout and placement being key in the process. Additionally understanding how technology can be present without the need for electricity for power but purely through the adaptability of the product.",
          "productDesc2":"Experience the perfect balance of freedom and security with the VR Golden Leaf. Designed to accommodate plates for enhanced protection, this vest offers unparalleled versatility, allowing users to wear it loosely for maximum ......",
          "largeImageSlides":[
-          "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf1.webp",
-          "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf2.webp",
-          "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf3.webp",
-          "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf4.webp",
-          "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf5.webp",
-          "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf6.jpg"       
+            "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf1.webp",
+            "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf2.webp",
+            "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf3.webp",
+            "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf4.webp",
+            "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf5.webp",
+            "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf6.jpg"       
          ],
          "smallTopSlides":[
-          "/assets/images/prodImages/goldenLeaf/productPage/carousel2/car2GoldenLeaf1.webp"
+            "/assets/images/prodImages/goldenLeaf/productPage/carousel2/car2GoldenLeaf1.webp"
          ],
          "smallBottomSlides":[
-          "/assets/images/prodImages/goldenLeaf/productPage/carousel3/car3GoldenLeaf1.webp"
+            "/assets/images/prodImages/goldenLeaf/productPage/carousel3/car3GoldenLeaf1.webp"
+         ],
+         "mobLargeImagesSlides":[
+            "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf1.webp",
+            "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf2.webp",
+            "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf3.webp",
+            "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf4.webp",
+            "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf5.webp",
+            "/assets/images/prodImages/goldenLeaf/productPage/carousel1/car1GoldenLeaf6.jpg" 
          ],
          "textiles":"Nylon/Felt With Black Cotton Lining, Orange Nylon Webbing Strap",
          "technology":["N/A"]
@@ -417,6 +480,7 @@
          "height":0,
          "width2":100,
          "height2":0,
+         "width3":900,
          "slides":[
             "/assets/images/prodImages/terrain1/homePage/carousel/carTerrain1.webp",
             "/assets/images/prodImages/terrain1/homePage/carousel/carTerrain2.webp",
@@ -428,32 +492,48 @@
          "productDesc":"VR Terrain 1S, a visionary concept design that blurs the lines between textiles and cutting-edge technology. Inspired by the terrain of the city streets and the intricate circuits of a PCB board, this concept redefines the boundaries of textile design and wearable innovation, challenging the way technology should integrate with textiles being that both have their own constraints. This concept exemplifies the resolution of technology and how it can be conceived, like should the wires be visible and how can its visibility inform the textile?",
          "productDesc2":"VR Terrain 1S, a visionary concept design that blurs the lines between textiles and cutting-edge technology. Inspired by the terrain of the city streets and the intricate circuits of a PCB board, this concept redefines the boundaries .....",
          "largeImageSlides":[
-          "/assets/images/prodImages/terrain1/productPage/carousel1/1.webp",
-          "/assets/images/prodImages/terrain1/productPage/carousel1/2.webp",
-          "/assets/images/prodImages/terrain1/productPage/carousel1/3.webp",
-          "/assets/images/prodImages/terrain1/productPage/carousel1/4.webp",
-          "/assets/images/prodImages/terrain1/productPage/carousel1/5.webp",
-          "/assets/images/prodImages/terrain1/productPage/carousel1/6.webp",
-          "/assets/images/prodImages/terrain1/productPage/carousel1/7.webp"
+            "/assets/images/prodImages/terrain1/productPage/carousel1/1.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel1/2.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel1/3.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel1/4.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel1/5.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel1/6.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel1/7.webp"
          ],
          "largeImageSlides2":[
-          "/assets/images/prodImages/terrain1/productPage/carousel2/1.webp",
-          "/assets/images/prodImages/terrain1/productPage/carousel2/2.webp",
-          "/assets/images/prodImages/terrain1/productPage/carousel2/3.webp",
-          "/assets/images/prodImages/terrain1/productPage/carousel2/4.webp",
-          "/assets/images/prodImages/terrain1/productPage/carousel2/5.webp",
-          "/assets/images/prodImages/terrain1/productPage/carousel2/6.webp",
-          "/assets/images/prodImages/terrain1/productPage/carousel2/7.webp"
+            "/assets/images/prodImages/terrain1/productPage/carousel2/1.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel2/2.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel2/3.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel2/4.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel2/5.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel2/6.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel2/7.webp"
          ],
          "smallTopSlides":[
-          "/assets/images/prodImages/terrain1/productPage/carousel3/car3Terrain1.webp",
-          "/assets/images/prodImages/terrain1/productPage/carousel3/car3Terrain2.webp",
-          "/assets/images/prodImages/terrain1/productPage/carousel3/car3Terrain3.webp",
-          "/assets/images/prodImages/terrain1/productPage/carousel3/car3Terrain4.webp"
+            "/assets/images/prodImages/terrain1/productPage/carousel3/car3Terrain1.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel3/car3Terrain2.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel3/car3Terrain3.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel3/car3Terrain4.webp"
          ],
          "smallBottomSlides":[
-          "/assets/images/prodImages/terrain1/productPage/carousel4/car4Terrain1.webp",
-          "/assets/images/prodImages/terrain1/productPage/carousel4/car4Terrain2.webp"
+            "/assets/images/prodImages/terrain1/productPage/carousel4/car4Terrain1.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel4/car4Terrain2.webp"
+         ],
+         "mobLargeImagesSlides":[
+            "/assets/images/prodImages/terrain1/productPage/carousel1/1.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel1/2.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel1/3.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel1/4.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel1/5.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel1/6.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel1/7.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel2/1.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel2/2.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel2/3.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel2/4.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel2/5.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel2/6.webp",
+            "/assets/images/prodImages/terrain1/productPage/carousel2/7.webp"
          ],
          "textiles":"Canvas, Paint, Black Cotton Canvas Inner",
          "technology":["N/A"]
