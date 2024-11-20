@@ -159,7 +159,7 @@ const ProductDetails = async ({ params }) => {
 
           {/* Right column with product details (shared) */}
           <div className='ml-3' style={{width:'75%'}}>
-            <div className="mt-[40px] overflow-scroll h-[1050px] no-scrollbar text-[12px]">
+            <div className="mt-[40px] overflow-scroll h-[1050px] no-scrollbar scrollbar-hide text-[12px]">
               <p className="font-bold" style={{ fontSize: '14px' }}>{product.productName}</p>
             
               <p className='mt-5'>DESCRIPTION</p>
