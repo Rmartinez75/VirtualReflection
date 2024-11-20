@@ -8,9 +8,11 @@ function ComingSoon() {
   return (
     <div style={{background: '#FFF3F3'}}>
       <div className='flex h-screen text-center justify-center items-center text-[11px]' >
-        <div className='flex mt-[15%] mb-[15%]'>
+        <div className='block lg:flex mt-[15%] mb-[15%]'>
           <span className='mt-[35px]'>IN PROGRESS</span>
-          <Image src={'/assets/images/logo.png'} width={125} height={75} alt='Image' className='ml-8 mr-8'/>
+          <div className='flex justify-center'>
+          <Image src={'/assets/images/logo.png'} width={125} height={75} alt='Image' className=' m-8 lg:m-0 lg:ml-8 lg:mr-8'/>
+          </div>
           <span className='mt-[35px]'>
             COMING SOON... 
             {/* <RegisterLink postLoginRedirectURL='/dashboard'> */}
@@ -18,7 +20,7 @@ function ComingSoon() {
                 SIGN UP
               </u>
             {/* </RegisterLink>  */}
-            TO GET NOTIFIED
+            &nbsp;TO GET NOTIFIED
           </span>
         </div>
       </div>

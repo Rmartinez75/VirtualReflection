@@ -3,6 +3,7 @@ import Carousel from '@/components/Carousel';
 import Image from 'next/image';
 import fs from 'fs';
 import path from 'path';
+import Link from 'next/link';
 
 const ProductDetails = async ({ params }) => {
   // Await the params object
@@ -21,9 +22,9 @@ const ProductDetails = async ({ params }) => {
   return (
     <>
       <div className='hidden lg:flex justify-center items-center max-w-full'>
-        <div className="flex min-w-0 max-w-full">
-          <div className="block ml-10" style={{ width: '75%' }}>
-            <div className="flex">
+        <div className="flex min-w-0 max-w-full mr-[40px]">
+          <div className="block ml-7" style={{width:'75%'}}>
+            <div className="flex m-2">
               <div className='flex min-w-0'>
                 {product.imageCount === 3 ? (
                   <>
@@ -42,30 +43,30 @@ const ProductDetails = async ({ params }) => {
                         ))}
                       </Carousel>
                     </div>
-                    <div className="mt-8 ml-2">
-                      <div className='mb-2 w-[319px]'>
+                    <div className="mt-8 w-[318px] ml-2">
+                      <div className='mb-2'>
                         <Carousel autoSlide={true} autoSlideInterval={8250}>
                           {(product.smallTopSlides || []).map((src, i) => (
                             <Image 
                               src={src} 
                               key={i} 
-                              alt={`Small top slide ${i}`} 
-                              width={319} 
+                              alt={`Small Top Slide ${i}`} 
+                              width={318} 
                               height={0} 
                               className="max-w-full" 
-                              priority  
+                              priority 
                             />
                           ))}
                         </Carousel>
-                      </div>                    
-                      <div className='mb-2 w-[319px]'>
+                      </div>
+                      <div className='mb-2'>
                         <Carousel autoSlide={true} autoSlideInterval={8000}>
                           {(product.smallBottomSlides || []).map((src, i) => (
                             <Image 
                               src={src} 
                               key={i} 
-                              alt={`Small bottom slide ${i}`} 
-                              width={319} 
+                              alt={`Small Bottom Slide ${i}`} 
+                              width={318} 
                               height={0} 
                               className="max-w-full" 
                               priority  
@@ -107,30 +108,30 @@ const ProductDetails = async ({ params }) => {
                         ))}
                       </Carousel>
                     </div>
-                    <div className="mt-8 ml-2">
-                      <div className='mb-2 w-[316px]'>
+                    <div className="mt-8 w-[318px] ml-2">
+                      <div className='mb-2'>
                         <Carousel autoSlide={true} autoSlideInterval={8250}>
                           {(product.smallTopSlides || []).map((src, i) => (
                             <Image 
                               src={src} 
                               key={i} 
                               alt={`Small Top Slide ${i}`} 
-                              width={316} 
+                              width={318} 
                               height={0} 
                               className="max-w-full" 
-                              priority  
+                              priority 
                             />
                           ))}
                         </Carousel>
                       </div>
-                      <div className='mb-2 w-[316px]'>
+                      <div className='mb-2'>
                         <Carousel autoSlide={true} autoSlideInterval={8000}>
                           {(product.smallBottomSlides || []).map((src, i) => (
                             <Image 
                               src={src} 
                               key={i} 
                               alt={`Small Bottom Slide ${i}`} 
-                              width={316} 
+                              width={318} 
                               height={0} 
                               className="max-w-full" 
                               priority  
@@ -157,8 +158,8 @@ const ProductDetails = async ({ params }) => {
           </div>
 
           {/* Right column with product details (shared) */}
-          <div className='w-auto ml-5 mr-10 max-w-full'>
-            <div className="mt-8 overflow-scroll h-[1050px] no-scrollbar text-[12px]">
+          <div className='ml-3' style={{width:'75%'}}>
+            <div className="mt-[40px] overflow-scroll h-[1050px] no-scrollbar text-[12px]">
               <p className="font-bold" style={{ fontSize: '14px' }}>{product.productName}</p>
             
               <p className='mt-5'>DESCRIPTION</p>
@@ -253,6 +254,12 @@ const ProductDetails = async ({ params }) => {
             )}
           </div>
         </div>
+        <Link href='/soon' className='lg:hidden flex justify-center mt-5 mb-5'>
+          <div className="flex bg-[#28231d] w-[205px] h-[40px] border-[0.5px] rounded-[25px] border-solid text-center text-white justify-center items-center text-[11px]">
+            Not Available <br/>
+            Sign Up For Updates
+          </div>
+        </Link>
         <div className='w-auto ml-5 mr-10'>
           <div className="mt-8 h-auto text-[12px]">
             <p className="font-bold" style={{ fontSize: '14px' }}>{product.productName}</p>

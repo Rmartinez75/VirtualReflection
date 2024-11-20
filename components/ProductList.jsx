@@ -55,7 +55,7 @@ const ProductList = () => {
                   </Link>
                 </div>
                 <div className="hidden lg:flex p-0.5 rounded-xl">
-                  <Link href={product.href2}>
+                  <Link href={`/products/${product.id}`}>
                     <Image
                       src={product.src2}
                       alt={product.alt2}

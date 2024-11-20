@@ -21,7 +21,7 @@ function NavBar() {
   return (
     <>
         {/* CREATE NAVBAR AND STYLE */}       
-        <div className='hidden lg:flex lg:justify-between lg:items-center py-2 lg:sticky top-0 bg-[#28231d] text-[#afaeae] text-[13px] z-50'>
+        <div className='hidden lg:flex lg:justify-between lg:items-center py-2 lg:sticky w-[100%] top-0 bg-[#28231d] text-[#afaeae] text-[13px] z-50'>
             {/* LOGO AND COMPANY NAME DIV */}
             <div className='text-center ml-[25px] p-[10px]'>
                 <Link href={'/'} className='flex gap-2 lg:hover:text-white'>
