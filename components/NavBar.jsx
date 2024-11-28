@@ -11,6 +11,12 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 import DropMenu from './DropMenu';
+import {
+    RegisterLink, 
+    LoginLink,
+    getKindeServerSession,
+    LogoutLink,
+} from "@kinde-oss/kinde-auth-nextjs/components";
 
 import { MdMenu, MdOutlineShoppingCart, MdCircle } from "react-icons/md";
 import { IoMdLogIn } from "react-icons/io";
@@ -60,24 +66,23 @@ function NavBar() {
                             <MdOutlineShoppingCart className='mt-[4.5px] ml-[10px]' />
                         </Link>
                     </li>
+                    
                     <li className='flex mr-[5px]'>
-                        <Link 
-                            href={'/'} 
+                        <LoginLink 
                             className='flex lg:hover:text-white'
                         >
                             Login
                             <IoMdLogIn className='mt-[4.5px] ml-[10px]' />
-                        </Link>
+                        </LoginLink>
                     </li>
                     <span className='mr-[5px] ml-[5px]'>&nbsp; or &nbsp;</span>
                     <li className='mr-[50px] flex'>
-                        <Link 
-                            href={'/'} 
+                        <RegisterLink 
                             className='flex lg:hover:text-white'
                         >
                             Register
                             <FaRegRegistered className='mt-[4.5px] ml-[10px]' />
-                        </Link>
+                        </RegisterLink>
                     </li>
                 </ul>
             </div>
@@ -122,22 +127,20 @@ function NavBar() {
                             </Link>
                         </DropdownMenuItem>
                         <DropdownMenuItem className='justify-around'>
-                            <Link 
-                                href={'/'} 
+                            <LoginLink 
                                 className='flex mb-[25px]'
                             >
                                 Login
                                 <IoMdLogIn className='mt-[4px] ml-[10px]' />
-                            </Link>
+                            </LoginLink>
                         </DropdownMenuItem>
                         <DropdownMenuItem className='justify-around'>
-                            <Link 
-                                href={'/'} 
+                            <RegisterLink 
                                 className='flex mb-[25px]'
                             >
                                 Register
                                 <FaRegRegistered className='mt-[4px] ml-[10px]' />
-                            </Link>
+                            </RegisterLink>
                         </DropdownMenuItem>
                     </DropdownMenuContent>
                 </DropdownMenu>
