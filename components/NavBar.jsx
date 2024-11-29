@@ -1,5 +1,6 @@
 
-'use client'
+import Authenticate from "./Authenticate";
+import DropMenu from './DropMenu';
 
 import {
   DropdownMenu,
@@ -10,13 +11,11 @@ import {
 import Link from 'next/link'
 import Image from 'next/image'
 
-import DropMenu from './DropMenu';
 import {
     RegisterLink, 
     LoginLink,
-    getKindeServerSession,
-    LogoutLink,
 } from "@kinde-oss/kinde-auth-nextjs/components";
+import {getKindeServerSession} from "@kinde-oss/kinde-auth-nextjs/server";
 
 import { MdMenu, MdOutlineShoppingCart, MdCircle } from "react-icons/md";
 import { IoMdLogIn } from "react-icons/io";
@@ -24,6 +23,13 @@ import { FaRegRegistered } from "react-icons/fa";
 
 
 function NavBar() {
+
+    const authenticate = async () => {
+        const {isAuthenticated} = getKindeServerSession();
+        const isUserAuthenticated = isAuthenticated();
+        return isUserAuthenticated
+    }    
+
   return (
     <>
         {/* CREATE NAVBAR AND STYLE */}       
@@ -42,7 +48,7 @@ function NavBar() {
                 </Link>
             </div>
             {/* DESKTOP NAVBAR OPTIONS */}
-            <div className='lg:flex'>
+            <div className='lg:flex p-[10px]'>
                 <ul className='flex'>
                     <li className='mr-[59px] flex'>
                         {/* DROPMENU */}
@@ -65,32 +71,15 @@ function NavBar() {
                             Cart
                             <MdOutlineShoppingCart className='mt-[4.5px] ml-[10px]' />
                         </Link>
-                    </li>
-                    
-                    <li className='flex mr-[5px]'>
-                        <LoginLink 
-                            className='flex lg:hover:text-white'
-                        >
-                            Login
-                            <IoMdLogIn className='mt-[4.5px] ml-[10px]' />
-                        </LoginLink>
-                    </li>
-                    <span className='mr-[5px] ml-[5px]'>&nbsp; or &nbsp;</span>
-                    <li className='mr-[50px] flex'>
-                        <RegisterLink 
-                            className='flex lg:hover:text-white'
-                        >
-                            Register
-                            <FaRegRegistered className='mt-[4.5px] ml-[10px]' />
-                        </RegisterLink>
-                    </li>
+                    </li> 
+                    <Authenticate />                    
                 </ul>
             </div>
         </div>
         
         {/* MOBILE MENU */}
         <div className='flex lg:hidden justify-center p-[10px]'>
-            <Link href={'/'} className='flex text-[16px] mb-2'>
+            <Link href={'/'} className='flex text-[16px]'>
                 <Image 
                     src='/assets/images/logo5.png' 
                     alt='LOGO' 
@@ -100,6 +89,9 @@ function NavBar() {
                 />
                 Metaphysical Abstract Design
             </Link>
+        </div>
+        <div className="flex lg:hidden justify-center mb-[20px]">
+            <Authenticate/>
         </div>
         <div className="flex lg:hidden justify-center">
             <div className="flex bg-[#28231d] justify-center lg:hidden w-[200px] h-[25px] border-[0.5px] rounded-[25px] border-solid">
@@ -125,22 +117,6 @@ function NavBar() {
                                 Cart
                                 <MdOutlineShoppingCart className='mt-[4px] ml-[10px]' />
                             </Link>
-                        </DropdownMenuItem>
-                        <DropdownMenuItem className='justify-around'>
-                            <LoginLink 
-                                className='flex mb-[25px]'
-                            >
-                                Login
-                                <IoMdLogIn className='mt-[4px] ml-[10px]' />
-                            </LoginLink>
-                        </DropdownMenuItem>
-                        <DropdownMenuItem className='justify-around'>
-                            <RegisterLink 
-                                className='flex mb-[25px]'
-                            >
-                                Register
-                                <FaRegRegistered className='mt-[4px] ml-[10px]' />
-                            </RegisterLink>
                         </DropdownMenuItem>
                     </DropdownMenuContent>
                 </DropdownMenu>
