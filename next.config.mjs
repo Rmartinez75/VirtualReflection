@@ -13,10 +13,10 @@ const nextConfig = {
     ],
   },
 
-  webpack(config, { dev, isServer }) {
-    if (dev) {
-      // Use the default eval-source-map for development
-      config.devtool = 'eval-source-map';
+  webpack(config, { isDevelopment }) {
+    if (isDevelopment) {
+      // Ensure that we use an optimal devtool for development mode
+      config.devtool = 'cheap-module-source-map'; // or 'eval-source-map' based on your needs
     }
     return config;
   },
