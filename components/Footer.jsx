@@ -16,7 +16,7 @@ function Footer() {
                     </li>
                     <li className="text-[12px]">
                         <Link 
-                            href={'/comingSoon'} 
+                            href={'/soon'} 
                             className="" 
                             target='_blank'
                         >
@@ -25,7 +25,7 @@ function Footer() {
                     </li>
                     <li className="text-[12px]">
                         <Link 
-                            href={'/comingSoon'} 
+                            href={'/soon'} 
                             className="" 
                             target='_blank'
                         >
@@ -34,7 +34,7 @@ function Footer() {
                     </li>
                     <li className="text-[12px]">
                         <Link 
-                            href={'/comingSoon'} 
+                            href={'/soon'} 
                             className="" 
                             target='_blank'
                         >
@@ -43,7 +43,7 @@ function Footer() {
                     </li>
                     <li className="text-[12px]">
                         <Link 
-                            href={'/comingSoon'} 
+                            href={'/soon'} 
                             className="" 
                             target='_blank'
                         >
@@ -101,7 +101,7 @@ function Footer() {
                     </li>
                     <li className="text-[12px]">
                         <Link 
-                            href={'/comingSoon'} 
+                            href={'/soon'} 
                             className="" 
                             target='_blank'
                         >
@@ -110,7 +110,7 @@ function Footer() {
                     </li>
                     <li className="text-[12px]">
                         <Link 
-                            href={'/comingSoon'} 
+                            href={'/soon'} 
                             className="" 
                             target='_blank'
                         >
@@ -119,7 +119,7 @@ function Footer() {
                     </li>
                     <li className="text-[12px]">
                         <Link 
-                            href={'/comingSoon'} 
+                            href={'/soon'} 
                             className="" 
                             target='_blank'
                         >
@@ -130,14 +130,12 @@ function Footer() {
             </div>
             <div className='leading-8 lg:leading-7'>
                 <ul>
-                    <li className='text-[13px] underline font-bold'>
-                        
-                            CONTACT
-                        
+                    <li className='text-[13px] underline font-bold'>                        
+                        CONTACT    
                     </li>
                     <li className="text-[12px]">
                         <Link 
-                            href="madstudio.vr@gmail.com" 
+                            href="/soon" 
                             className="" 
                             target='_blank'
                         >
