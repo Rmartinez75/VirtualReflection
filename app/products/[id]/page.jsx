@@ -1,38 +1,46 @@
 
-// app/products/[id]/page.jsx
+'use client';
 
+import React from 'react';
+import { useState, useEffect } from 'react';
 import Carousel from '@/components/Carousel';
 import Image from 'next/image';
+
 import Link from 'next/link';
-import fs from 'fs';
-import path from 'path';
+import Spinner from '@/components/Spinner';
 
-// Server-side function to fetch product data
-async function fetchProductData(id) {
-  const filePath = path.join(process.cwd(), 'public', 'products.json');
-  const jsonData = fs.readFileSync(filePath, 'utf-8');
-  const products = JSON.parse(jsonData);
+const ProductDetails = ({ params }) => {
+  const { id } = React.use(params); // Unwrap the params object using React.use()
 
-  return products.find((product) => product.id === id);
-}
+  const [product, setProduct] = useState(null);
 
-export default async function ProductDetails({ params }) {
-  // Await params here
-  const { id } = await params;
+  useEffect(() => {
+    const fetchProduct = async () => {
+      try {
+        const response = await fetch('/products.json');
+        const data = await response.json();
+        const foundProduct = data.find((product) => product.id.toString() === id);
+        if (foundProduct) {
+          setProduct(foundProduct);
+        }
+      } catch (error) {
+        console.error("Error loading product:", error);
+      }
+    };
 
-  const product = await fetchProductData(id);
+    fetchProduct();
+  }, [id]); // Re-run the fetch when the id changes
 
-  if (!product) {
-    return <p>Product not found.</p>;
-  }
+  if (!product) return <Spinner />; // Show loading until product data is fetched
 
   return (
     <>
+      {/* Desktop view */}
       <div className="hidden lg:flex justify-center items-center max-w-full">
         <div className="flex min-w-0 max-w-full mr-[40px]">
           <div className="block ml-7" style={{ width: '75%' }}>
             <div className="flex m-2">
-              <div className="flex min-w-0">
+              <div className='flex min-w-0'>
                 {product.imageCount === 3 ? (
                   <>
                     <div className="flex w-[900px] mt-8">
@@ -51,7 +59,7 @@ export default async function ProductDetails({ params }) {
                       </Carousel>
                     </div>
                     <div className="mt-8 w-[318px] ml-2">
-                      <div className="mb-[10px]">
+                      <div className='mb-[10px]'>
                         <Carousel autoSlide={true} autoSlideInterval={8250}>
                           {(product.smallTopSlides || []).map((src, i) => (
                             <Image
@@ -66,7 +74,7 @@ export default async function ProductDetails({ params }) {
                           ))}
                         </Carousel>
                       </div>
-                      <div className="">
+                      <div>
                         <Carousel autoSlide={true} autoSlideInterval={8000}>
                           {(product.smallBottomSlides || []).map((src, i) => (
                             <Image
@@ -116,7 +124,7 @@ export default async function ProductDetails({ params }) {
                       </Carousel>
                     </div>
                     <div className="mt-8 w-[318px] ml-2">
-                      <div className="mb-2">
+                      <div className='mb-2'>
                         <Carousel autoSlide={true} autoSlideInterval={8250}>
                           {(product.smallTopSlides || []).map((src, i) => (
                             <Image
@@ -131,7 +139,7 @@ export default async function ProductDetails({ params }) {
                           ))}
                         </Carousel>
                       </div>
-                      <div className="mb-2">
+                      <div className='mb-2'>
                         <Carousel autoSlide={true} autoSlideInterval={8000}>
                           {(product.smallBottomSlides || []).map((src, i) => (
                             <Image
@@ -164,23 +172,17 @@ export default async function ProductDetails({ params }) {
             </div>
           </div>
 
-          <div className="ml-3" style={{ width: '75%' }}>
+          {/* Right column with product details */}
+          <div className='ml-3' style={{ width: '75%' }}>
             <div className="mt-[40px] overflow-scroll h-[1050px] no-scrollbar scrollbar-hide text-[12px]">
-              <p className="font-bold" style={{ fontSize: '14px' }}>
-                {product.productName}
-              </p>
-
-              <p className="mt-5">DESCRIPTION</p>
+              <p className="font-bold" style={{ fontSize: '14px' }}>{product.productName}</p>
+              <p className='mt-5'>DESCRIPTION</p>
               <br />
               {product.productDesc}
-
-              <p className="mt-[50px]">TEXTILE</p>
-
-              <p className="mt-5">{product.textiles}</p>
-
-              <p className="mt-[50px]">TECHNOLOGY</p>
-
-              <p className="mt-5">
+              <p className='mt-[50px]'>TEXTILE</p>
+              <p className='mt-5'>{product.textiles}</p>
+              <p className='mt-[50px]'>TECHNOLOGY</p>
+              <p className='mt-5'>
                 {(product.technology || []).map((item, index) => (
                   <span key={index}>
                     {item}
@@ -188,91 +190,138 @@ export default async function ProductDetails({ params }) {
                   </span>
                 ))}
               </p>
-
-              <div className="flex">
-                <span className="flex row-span-6 mt-[50px]">
-                  SIZE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TYPE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a href="/register" className="flex">
-                    GET NOTIFIED:
-                  </a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EMAIL HERE
+              <div className='flex'>
+                <span className='flex row-span-6 mt-[50px]'>
+                  SIZE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TYPE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/register' className='flex'>GET NOTIFIED:</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EMAIL HERE
                 </span>
               </div>
               <br />
-              <p className="mt-[50px]">DOWNLOAD OPTIONS: FOR OPEN SOURCE ADD EMAIL FOR DOWNLOAD</p>
+              <p className='mt-[50px]'>DOWNLOAD OPTIONS: FOR OPEN SOURCE ADD EMAIL FOR DOWNLOAD</p>
             </div>
           </div>
         </div>
       </div>
-
-      <div className="block lg:hidden mt-5">
-        <div className="justify-center items-center max-w-full m-1">
-          {Array.isArray(product.mobLargeImagesSlides) && product.mobLargeImagesSlides.length > 0 ? (
-            <Carousel autoSlide={true} autoSlideInterval={8500}>
-              {product.mobLargeImagesSlides.map((src, i) => (
-                <Image
-                  src={src}
-                  key={i}
-                  alt={`Large product slide ${i}`}
-                  width={product.width3}
-                  height={0}
-                  className="max-w-full"
-                  priority
-                />
-              ))}
-            </Carousel>
-          ) : (
-            <p>No mobile images available.</p>
-          )}
-        </div>
-        <div className="flex">
-          <div className="w-[50%] m-1">
-            {Array.isArray(product.smallTopSlides) && product.smallTopSlides.length > 0 ? (
-              <Carousel autoSlide={true} autoSlideInterval={8250}>
-                {product.smallTopSlides.map((src, i) => (
-                  <Image
-                    src={src}
-                    key={i}
-                    alt={`Large product slide ${i}`}
-                    width={product.width3}
-                    height={0}
-                    className="max-w-full"
-                    priority
+      
+       {/* Mobile view for Product Details page */}
+       <div className='block lg:hidden mt-5'>
+          <div className='justify-center items-center max-w-full m-1'>
+            {Array.isArray(product.mobLargeImagesSlides) && product.mobLargeImagesSlides.length > 0 ? (
+              <Carousel autoSlide={true} autoSlideInterval={8500}>
+                {product.mobLargeImagesSlides.map((src, i) => (
+                  <Image 
+                    src={src} 
+                    key={i} 
+                    alt={`Large product slide ${i}`} 
+                    width={product.width3} 
+                    height={0} 
+                    className="max-w-full" 
+                    priority  
                   />
                 ))}
               </Carousel>
-            ) : (
-              <p>No mobile images available.</p>
+              ) : (
+              <p>No mobile images available.</p>  // Or some other fallback if no slides are available
             )}
           </div>
-          <div className="w-[50%] m-1">
-            {Array.isArray(product.smallBottomSlides) && product.smallBottomSlides.length > 0 ? (
-              <Carousel autoSlide={true} autoSlideInterval={8000}>
-                {product.smallBottomSlides.map((src, i) => (
-                  <Image
-                    src={src}
-                    key={i}
-                    alt={`Small Bottom Slide ${i}`}
-                    width={product.width3}
-                    height={0}
-                    className="max-w-full"
-                    priority
-                  />
-                ))}
-              </Carousel>
-            ) : (
-              <p>No mobile images available.</p>
-            )}
+          <div className='flex'>
+            <div className='w-[50%] m-1'>
+              {Array.isArray(product.smallTopSlides) && product.smallTopSlides.length > 0 ? (
+                <Carousel autoSlide={true} autoSlideInterval={8250}>
+                  {product.smallTopSlides.map((src, i) => (
+                    <Image 
+                      src={src} 
+                      key={i} 
+                      alt={`Large product slide ${i}`} 
+                      width={product.width3} 
+                      height={0} 
+                      className="max-w-full" 
+                      priority  
+                    />
+                  ))}
+                </Carousel>
+                ) : (
+                <p>No mobile images available.</p>  // Or some other fallback if no slides are available
+              )}
+            </div>
+            <div className='w-[50%] m-1'>
+              {Array.isArray(product.smallBottomSlides) && product.smallBottomSlides.length > 0 ? (
+                <Carousel autoSlide={true} autoSlideInterval={8000}>
+                  {product.smallBottomSlides.map((src, i) => (
+                    <Image 
+                      src={src} 
+                      key={i} 
+                      alt={`Large product slide ${i}`} 
+                      width={product.width3} 
+                      height={0} 
+                      className="max-w-full" 
+                      priority  
+                    />
+                  ))}
+                </Carousel>
+                ) : (
+                <p>No mobile images available.</p>  // Or some other fallback if no slides are available
+              )}
+            </div>
           </div>
-        </div>
-      </div>
+          <Link href='/soon' className='lg:hidden flex justify-center mt-5 mb-5'>
+            <div className="flex bg-[#28231d] w-[205px] h-[40px] border-[0.5px] rounded-[25px] border-solid text-center text-white justify-center items-center text-[11px]">
+              Not Available <br/>
+              Sign Up For Updates
+            </div>
+          </Link>
+          <div className='w-auto ml-5 mr-10'>
+            <div className="mt-8 h-auto text-[12px]">
+              <p className="font-bold" style={{ fontSize: '14px' }}>{product.productName}</p>
+            
+              <p className='mt-5'>DESCRIPTION</p>
+              <br />
+              {product.productDesc}
+            
+              <p className='mt-[50px]'>TEXTILE</p>
+              
+              <p className='mt-5'>{product.textiles}</p>
+              
+              <p className='mt-[50px]'>TECHNOLOGY</p>
 
-      <Link href="/products" className="flex cursor-pointer justify-center items-center text-black text-[14px]">
-        Back
-      </Link>
+              <p className='mt-5'>
+                {(product.technology || []).map((item, index) => (
+                  <span key={index}>
+                    {item}
+                    {index < product.technology.length - 1 && <br />}
+                  </span>
+                ))}
+              </p>
+            
+              <div className='block'>
+                <span className='flex row-span-6 mt-[50px]'>
+                  SIZE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TYPE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                
+                </span>
+                <br/>
+                <br/>
+                <a href='/register'>GET NOTIFIED:</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EMAIL HERE
+              </div>
+              <br />
+              <p className='mt-[50px]'>DOWNLOAD OPTIONS: FOR OPEN SOURCE ADD EMAIL FOR DOWNLOAD</p>
+            </div>
+          </div>
+          <div className="mt-[55px] mb-[55px] flex justify-center max-w-full">
+            <Image
+              src={product.schematicsrc2}
+              alt={product.schematicalt2}
+              width={product.width2}
+              height={product.height2}
+              priority
+            />
+          </div>
+        </div> 
     </>
   );
-}
+};
+
+export default ProductDetails;
+
+
+
 
 
 // import Carousel from '@/components/Carousel';
